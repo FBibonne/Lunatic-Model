@@ -1,0 +1,544 @@
+
+<!DOCTYPE HTML>
+<html lang="fr" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Comment utiliser Lunatic-Model · Lunatic-Model</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="../components/Table.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Tapez pour rechercher" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Guide du développeur</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../projects/">
+            
+                <a href="../projects/">
+            
+                    
+                    Lien avec les autres projets
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../projects/eno/">
+            
+                <a href="../projects/eno/">
+            
+                    
+                    Eno
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../projects/lunatic/">
+            
+                <a href="../projects/lunatic/">
+            
+                    
+                    Lunatic
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../working/">
+            
+                <a href="../working/">
+            
+                    
+                    Fonctionnement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../components/">
+            
+                <a href="../components/">
+            
+                    
+                    Les composants
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../components/Variables.html">
+            
+                <a href="../components/Variables.html">
+            
+                    
+                    Variables
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../components/Sequence.html">
+            
+                <a href="../components/Sequence.html">
+            
+                    
+                    Sequence
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../components/Subsequence.html">
+            
+                <a href="../components/Subsequence.html">
+            
+                    
+                    Subsequence
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../components/Input.html">
+            
+                <a href="../components/Input.html">
+            
+                    
+                    Input
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../components/Textarea.html">
+            
+                <a href="../components/Textarea.html">
+            
+                    
+                    Textarea
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../components/InputNumber.html">
+            
+                <a href="../components/InputNumber.html">
+            
+                    
+                    InputNumber
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../components/CheckboxBoolean.html">
+            
+                <a href="../components/CheckboxBoolean.html">
+            
+                    
+                    CheckboxBoolean
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../components/Datepicker.html">
+            
+                <a href="../components/Datepicker.html">
+            
+                    
+                    Datepicker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../components/OptionsComponents.html">
+            
+                <a href="../components/OptionsComponents.html">
+            
+                    
+                    Les composants à options : Radio, Dropdown, CheckboxOne
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../components/CheckboxGroup.html">
+            
+                <a href="../components/CheckboxGroup.html">
+            
+                    
+                    CheckboxGroup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../components/Table.html">
+            
+                <a href="../components/Table.html">
+            
+                    
+                    Table
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Comment utiliser Lunatic-Model
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publié avec GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Comment utiliser Lunatic-Model</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="comment-utiliser-lunatic-model">Comment utiliser Lunatic-Model</h1>
+<h2 id="installation">Installation</h2>
+<p>Il s&apos;agit d&apos;un librairie java utilisant Maven.
+N&apos;&#xE9;tant pas pour le moment publi&#xE9;e sur les repository maven, veuillez suivre les &#xE9;tapes suivantes:</p>
+<ul>
+<li>cloner le d&#xE9;p&#xF4;t : <code>git clone https://github.com/InseeFr/Lunatic-Model.git</code></li>
+<li>lancer l&apos;installation : <ul>
+<li>se placer dans le dossier Lunatic-Model</li>
+<li><code>mvn clean install -DskipTests</code></li>
+</ul>
+</li>
+<li>int&#xE9;grer la d&#xE9;pendances dans votre projet maven </li>
+</ul>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>fr.insee.lunatic<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>lunatic-model<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>1.0.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<hr>
+<h2 id="transformations">Transformations</h2>
+<p>Il existe 2 transformations possibles :</p>
+<ol>
+<li>XMLLunatic (sortie d&apos;Eno ddi2js) vers JSONLunatic (sortie hi&#xE9;rarchique)</li>
+<li>XMLLunatic (sortie d&apos;Eno ddi2js) vers JSONLunaticFlat (sortie &#xE0; plat)</li>
+</ol>
+<p>Pour utiliser ces transformations, il faut utiliser dans un ordre pr&#xE9;cis les transformations unitaires:</p>
+<hr>
+<h3 id="transformation-1">Transformation 1</h3>
+<p>En entr&#xE9;e de la transformation, il possible d&apos;avoir:</p>
+<ul>
+<li>un fichier xml (<code>java.io.File</code>)</li>
+<li>un <code>String</code> r&#xE9;presentant le xml</li>
+<li>un type <code>StreamSource</code> (<code>javax.xml.transform.stream.StreamSource</code>)</li>
+</ul>
+<p>Le fichier en entr&#xE9;e doit &#xEA;tre issue du g&#xE9;n&#xE9;rateur de questionnaire Eno (ddi2js).</p>
+<p>En sortie :  un json au format <code>String</code>.</p>
+<p>Transformation:</p>
+<pre class="language-"><code class="lang-java"><span class="token class-name">XMLLunaticToJSONLunaticTranslator</span> translator <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">XMLLunaticToJSONLunaticTranslator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">JSONCleaner</span> jsonCleaner <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">JSONCleaner</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> jsonQuestionnaire <span class="token operator">=</span> jsonCleaner<span class="token punctuation">.</span><span class="token function">clean</span><span class="token punctuation">(</span>translator<span class="token punctuation">.</span><span class="token function">translate</span><span class="token punctuation">(</span>in<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<hr>
+<h3 id="transformation-2">Transformation 2</h3>
+<p>En entr&#xE9;e de la transformation, il possible d&apos;avoir:</p>
+<ul>
+<li>un fichier xml (<code>java.io.File</code>)</li>
+<li>un <code>String</code> r&#xE9;presentant le xml</li>
+<li>un type <code>InputStream</code> (<code>java.io.InputStream</code>)</li>
+</ul>
+<p>Le fichier en entr&#xE9;e doit &#xEA;tre issue du g&#xE9;n&#xE9;rateur de questionnaire Eno (ddi2js).</p>
+<p>En sortie :  un json au format <code>String</code>.</p>
+<p>Transformation:</p>
+<pre class="language-"><code class="lang-java"><span class="token class-name">XMLLunaticToXMLLunaticFlatTranslator</span> translator <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">XMLLunaticToXMLLunaticFlatTranslator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">XMLLunaticFlatToJSONLunaticFlatTranslator</span> translator2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">XMLLunaticFlatToJSONLunaticFlatTranslator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">JSONCleaner</span> jsonCleaner <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">JSONCleaner</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> jsonQuestionnaire <span class="token operator">=</span> jsonCleaner<span class="token punctuation">.</span><span class="token function">clean</span><span class="token punctuation">(</span>translator2<span class="token punctuation">.</span><span class="token function">translate</span><span class="token punctuation">(</span>translator<span class="token punctuation">.</span><span class="token function">generate</span><span class="token punctuation">(</span>in<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../components/Table.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Table">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Comment utiliser Lunatic-Model","level":"1.5","depth":1,"previous":{"title":"Table","level":"1.4.11","depth":2,"path":"components/Table.md","ref":"components/Table.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","prism","-highlight","github","anchorjs","image-captions","include-codeblock","collapsible-chapters"],"root":"./","styles":{"website":"gitbook.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/InseeFr/Lunatic-Model/"},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/InseeFr/Lunatic-Model/tree/master/docs"},"theme-default":{"styles":{"website":"gitbook.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{},"image-captions":{"variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[]},"title":"Lunatic-Model","language":"fr","gitbook":"*"},"file":{"path":"usage/README.md","mtime":"2019-08-02T13:39:40.318Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2019-08-02T13:43:28.569Z"},"basePath":"..","book":{"language":"fr"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-anchorjs/anchor.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-anchorjs/anchor-style.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
