@@ -36,7 +36,7 @@ public class DataTranslatorsTest {
 	public void testDataXMLToJSON() {
 		logger.debug("Launch test : XML Lunatic data -> JSON");
 		try {
-			String basePath = Constants.RESOURCES_FOLDER_DATA_PATH;
+			var basePath = Constants.RESOURCES_FOLDER_DATA_PATH;
 						
 			File in = new File(String.format("%s/in/data.xml", basePath));
 			

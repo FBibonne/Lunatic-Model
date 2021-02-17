@@ -5,7 +5,7 @@
 	<groupId>fr.insee.lunatic</groupId>
 	<artifactId>lunatic-model</artifactId>
 	<packaging>jar</packaging>
-	<version>2.0.0</version>
+	<version>3.0.0-java11</version>
 	<name>Lunatic Model</name>
 	<description>Classes and converters for the Lunatic model</description>
 	<url>http://www.insee.fr</url>
@@ -95,8 +95,8 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<configuration>
-						<source>1.8</source>
-						<target>1.8</target>
+						<source>11</source>
+						<target>11</target>
 						<encoding>UTF-8</encoding>
 						<inputEncoding>UTF-8</inputEncoding>
 						<outputEncoding>UTF-8</outputEncoding>
